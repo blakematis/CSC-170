@@ -1,0 +1,90 @@
+Vision and Scope Document
+
+
+
+
+Team: Christopher Blake Matis and Michael Adams
+Project: Faculty Information Card Database Management Program(FICD)
+
+
+
+
+
+
+
+
+
+
+
+
+Department of Computer Science
+California State University Sacramento
+CSC 170 - Software Requirements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Business requirements
+1.1 Background
+The Computer Science Department of the College of Engineering and Computer Science at California State University Sacramento is in need of a database management system that can simplify the process of generating professor information cards and be easily maintained and updated. Currently, the majority of the work is done by the Computer Science’s Department Administrator manually in which they deal with multiple different sources for the information that they are using to form the information cards and do not have an automated system which would allow for simple importation and formatting of the data to generate the appropriate information card.
+
+1.2 Business opportunity
+The Faculty Information Card project will vastly improve the efficiency of the Computer Science Department by decreasing the amount of time and effort required to maintain and manipulate the information that is required to produce the Faculty Information Cards. This will allow more time for the department's administrator and assistant administrators to spend on the many other preparations and work for a successful semester. This will further free the department of possible vulnerabilities of the current Faculty Information Card generation system which is heavily dependent on the department administrator. For instance, if the administrator were to permanently leave the department they either would have to take time to train someone else in the current procedures or leave them alone with no information causing major scheduling delays and a lack of information available from which the Faculty Information Cards provide. Further, the current entirely manual system is more error prone than an automated system, which will result in fewer required corrections as time goes on.
+	
+1.3 Business objectives
+The project aims to decrease work related to generating Faculty Information Schedules by 50% or more. It shall also allow for any administrative representative that has the required permission to generate Faculty Information cards without manually importing information besides Faculty office hours. This will reduce the time required to prepare Faculty Information Schedules for anybody that requests the information by more than 50% for the initial request and any further reprints or updated information should be almost immediately available.
+
+
+1.4 Success metrics
+Create a database system that requires 50% less actions from the Computer Science Administrator and Clerk than previously required to generate a list of Faculty Information Cards. Reduce work hours by 50% or greater that were previously required to generate the Faculty Information Cards.
+
+
+1.5 Vision statement
+For the Computer Science Department Administrator and Clerk at California State University Sacramento who needs to generate Faculty Information Cards, the Faculty Information Card database is a database system that will provide a simple one stop interface which can generate all the Faculty Information Cards at once or individual cards upon request. The system will store courses, office hours, room locations, and days for each section that a particular instructor teaches. Unlike the current manual process of acquiring all the separate information such as re-entering the data into a different format, our product will save the Computer Science Department approximately 50 percent or more time as compared to the current system to obtain and generate the information into a Faculty Information Card. 
+
+1.6 Business risks
+The potential risks from not developing include substantial reliance on the current Computer Science Administrator. If the  Faculty Information Card database proposal is not implemented, then the administrator is the only one capable of creating the cards. Training another administrator in this somewhat intricate manual task would be additional overhead in replacement, and a process prone to far more implementation error than a database system. Furthermore, the primary risk associated with building the Faculty Information Card database is that it will not significantly decrease the time required to generate Faculty Information Cards and can possibly cost the department in time and work rather than increase productivity.
+
+1.7 Business assumption and dependencies
+The current project assumes that process in place is currently producing a product that is acceptable in the format it is in, and that the issue is primarily in the production process. The project should not require any other people to manage the tool created besides the department administrator and clerk and should not require or grant access to any external sources for data integrity. The project also assumes that the current Faculty Information Card generation system will be and can be improved at the end of its implementation. 
+
+2. Scope and limitations
+	2.1 Major features
+		2.1.1 (Generate All) Generate all Faculty Information Cards.
+2.1.2 (Generate Specific Card) Generate any Individual Faculty Information Card upon request.
+2.1.3 (Import Schedules) Import professor name, class schedules, sections, days, and times which is only modifiable by the office administrator.
+2.1.4 (Import Faculty Office Hours) Import office hours and contact information for professors this can be modified by the office clerk.
+	
+	
+	2.2 Scope of initial release
+		In the initial release, the Faculty Information Card Database should be capable of importing the current final schedule spreadsheet used as reference for creating the Faculty Information Cards and subsequently process the information into a printable card format. The FICD should be capable of printing either one or all of the Faculty Information Cards.
+	2.3 Scope of subsequent releases
+		The FICD should be capable of importing the raw data from the multiple sources collated to create the final schedule spreadsheet, process the data, and present the final product. The FICD should be capable of being used by multiple departments, without leaking data from one to another. Further, the FICD should be capable of using the current dataset to create cards for the next semester.
+	2.4 Limitations and exclusions
+		The FICD is not to be capable of creating formatted data output except in the form of the printed Faculty Information Cards, and is not intended as a general scheduling tool.
+
+3. Business context
+	3.1 Stakeholder profiles
+		The primary stakeholder is the Computer Science Department at California State University of Sacramento. Their primary interest in this project is to save time and effort of the department’s primary administrator, and reduce the overhead involved in disseminating basic information about the department faculty. Secondary benefits include reduced training overhead and easier personnel replacement and instruction.
+		The users of the prospective FICD are also involved in the savings of time, energy, and error correction. Possible hurdles involved in reaching them include issues of usability with regards to data import formatting. However, the primary benefit to them is in reducing a long series of repetitive tasks to what should ultimately be a few mouse clicks.
+	3.2 Project priorities 
+		The primary priority of the project is in the quick and manual-formatting free generation of faculty information cards, coupled with instant importation of updated data. The requirement to edit the imported information in the program is also a primary priority. Secondary priorities that are subject to deferment to later versions include functionality for multiple departments, and the automated extension of the current semester’s dataset for use in subsequent semesters. The only feature that is reliant on ongoing cooperation from other departments would be the importation and processing of the data from multiple sources to obviate the requirement to create the final information spreadsheet. As such, securing the cooperation of those departments including but not limited to the Facilities personnel involved is a basic requirement to that potential feature.
+	3.3 Deployment considerations
+		The successful deployment of the FICD will require a simple to access user interface for the department administrator and clerk where access is permitted within the physical computer science department office on windows based machines. Network access will require a connection to SacLink Secure local area network. The FICD will depend on the College of Engineering and Computer Sciences’ own data storage on their local servers and will require the permission and creation of a database account before the FICD can be deployed. User stories with snapshots of the user interface will be developed to train the administrator and clerk on how to perform their required tasks.
+
+
+
