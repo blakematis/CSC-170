@@ -11,15 +11,56 @@
 
 2. Overall description
 	2.1 Product perspective
-	2.2 User classes and characteristics
-	2.3 Operating environment
-	2.4 Design and implementation constraints
-	2.5 Assumptions and dependencies
+	2.2 User Classes and Characteristics
 
-3. System features
-	3.x System feature X
-		3.x.1 Description
-		3.x.2 Functional requirements
+There will be two levels of users recognized by the FICD. The first level of user will be the administrative user. They will be capable of importing, viewing, editing, and printing faculty information cards. Additionally, administrators will be capable of creating and managing accounts for all users of the FICD. Account management will involve changing user type, and changing a password for another account. The second will be the assistant level user. They will be capable of viewing and printing faculty information cards. The assistant level user will be capable of changing their own password.
+
+2.3 Operating Environment
+
+The FICD will be capable of operating on modern Windows systems with their minimum hardware requirements. The minimum hardware requirement is delivered below.
+
+	Windows 7, Windows 8, Windows 8.1, Windows 10
+	1 gigahertz (GHz) or faster 64-bit (x64) processor
+	2 GB RAM
+	[?] available hard disk space
+	DirectX 9 graphics device with WDDM 1.0 or higher driver
+	Printing requires: Windows compatible printing device
+
+2.4 Design and implementation constraints
+
+The primary design and implementation constraint in the FICD is the expected budget of zero dollars for both tasks. Development, installation, and use must require a skill level no greater than that of an untrained student. The FICD must be self-contained such that it impacts no other programs in installation or uninstallation. The FICD must not slow down other programs more than 5% while running.
+
+2.5 Assumptions and Dependencies
+
+The FICD is not expected to export information except as printing faculty information cards, and will not be capable of exporting data in any other format. It is expected that should there be a need for the FICD’s information that it will be available by other means to authorized personnel, and that the FICD is not required to store its data in a format readable by other programs.
+
+3. System Features
+Printing All Information Cards
+	3.A.1 
+Given a populated database of information, the FICD will be capable of printing all faculty information cards in the data on request.
+	3.A.2  
+There will be a button with the effect of printing all of the cards loaded into the FICD on the main editing window.
+
+     B. Printing One Information Card
+	3.B.1
+Given a faculty information card’s information in the main window, the FICD will be capable of printing that individual card.
+	3.B.2
+There will be a button with the effect of printing the card currently loaded into the main window.
+
+     C. Importing a spreadsheet with the FICD information
+	3.C.1
+Given a properly formatted spreadsheet, the FICD will be capable of reading and parsing the data within it into faculty information cards.
+
+	3.C.2
+There will be an ‘import spreadsheet’ button in the menu bar or on the main editing window with the effect of being capable of selecting a .csv file for importation. After the importation the information will be placed in the FICD database and editable within the program.
+
+     D. Administrative Users Edit Faculty Information Card information
+	3.D.1
+Administrative level users of the FICD will be capable of editing faculty information cards within the database, and saving that edited information to the database.
+	3.D.2
+An administrative user will have displayed to them in text boxes the contents of the current information fields of the card to be edited. These boxes will be editable. The results of changes in those boxes will be saveable. The changed card can be printed without saving the changes.
+
+     E. 
 
 4. Data requirements
 	4.1 Logical data model
@@ -41,6 +82,8 @@
 	6.x [others]
 
 7. Internationalization and localization requirements
+
+The FICD’s scope is solely confined to the California State University of Sacramento, and is to be used at its largest possible extent by the departments therein. The FICD is not required to be internationalizable or even localizable to any other campus.
 
 8. Other requirements
 
