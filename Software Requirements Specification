@@ -28,6 +28,10 @@ The FICD is a new software program database that will replace the manual process
 	
 2.2 User Classes and Characteristics
 
+The users of the FICD fall into three categories. The first is that of the technical administrator, responsible for the maintenance and upkeep of the program. The second is that of the office secretary, who is responsible for creating the data used by the FICD and designating assistants. The third is that of office clerks, who will be capable of updating the office hours and viewing the existing faculty card information.
+
+The technical administration is not expected to be a formally recognized category in the FICD. The office administrator’s account will have the same level of access and capability, though they will not be expected to operate the technical administrator’s features. The administrator’s account is to serve backend functions such as account management and error diagnosis. In the event of an interdepartmental release, the administration account will gain the ability to set office administrator accounts’ and clerk accounts’ department setting.
+
 There will be two levels of users recognized by the FICD. The first level of user will be the administrative user. They will be capable of importing, viewing, editing, and printing faculty information cards. Additionally, administrators will be capable of creating and managing accounts for all users of the FICD. Account management will involve changing user type, and changing a password for another account. The second will be the assistant level user. They will be capable of viewing and printing faculty information cards. The assistant level user will be capable of changing their own password.
 
 2.3 Operating Environment
