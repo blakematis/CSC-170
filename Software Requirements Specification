@@ -4,14 +4,29 @@
 1. Introduction
 	
 1.1 Purpose
-	The Faculty Information Card Database Managagement Program (FICD) will assist the Department of Computer Science at California State University Sacramento by automating the current process in place to create a Faculty Information Card. 
-	1.2 Document Conventions
-	1.3 Project Scope
-	1.4 References
+
+This SRS explains all of the known requirements for the initial release of the Faculty Information Card Database Managagement Program (FICD). The requirements will be used by the team designing and building the FICD, and will follow stricly to this document for the initial release unless changes are requested by the customer during development. All of the requirements listed will be used to verify that the FICD functions correctly and meets the customer's needs.
+
+1.2 Document Conventions
+
+This document has several signifcant conventions in regards to sub sections. Each section is broken into a series of 1.1-1.x or alphabetically organized i.e.(1.A, 1.A.1, 1.X.x) where if required further breakdown will be used for greater detail. Otherwise, no specific typing conventions are used such as bold or italicized fonts.
+	
+1.3 Project Scope
+
+The FICD will allow the Computer Science Administrator to generate Faculty Information Cards. Furthermore, the database will be able to store this data in an organized fashion to allow for cards to be generated all together or individually upon request. After generating the Faculty Information Cards they will be printed depending upon the request received by the Computer Science administrator. The office clerk will have limited ability to edit and view faculty office hours. The initial release will include all of these features and keep all other tasks and data private and unaccessible to anyone else.
+	
+1.4 References
+
+Weigers, Karl and Beatty, Joy. Sample Requirements Documents: Software Requirements Specification, Software Requirements Third Edition, 2013.
 
 2. Overall description
-	2.1 Product perspective
-	2.2 User Classes and Characteristics
+
+2.1 Product perspective
+
+The FICD is a new software program database that will replace the manual process of inputting raw data and csv files into a database from which specific queries are used to finalize and format the Faculty Informations Cards for printing. The FICD will acquire information from multiple different external sources and formats and organize the information required for the intial release. The context diagram describes what information is exchanged between the FICD and external entities...
+
+	
+2.2 User Classes and Characteristics
 
 There will be two levels of users recognized by the FICD. The first level of user will be the administrative user. They will be capable of importing, viewing, editing, and printing faculty information cards. Additionally, administrators will be capable of creating and managing accounts for all users of the FICD. Account management will involve changing user type, and changing a password for another account. The second will be the assistant level user. They will be capable of viewing and printing faculty information cards. The assistant level user will be capable of changing their own password.
 
@@ -37,7 +52,7 @@ The FICD is not expected to export information except as printing faculty inform
 3. System Features
 Printing All Information Cards
 	3.A.1 
-Given a populated database of information, the FICD will be capable of printing all faculty information cards in the data on request.
+Given a populated database of information, the FICD will be capable of printing all faculty information cards in the data on request. Priority = High.
 	3.A.2  
 There will be a button with the effect of printing all of the cards loaded into the FICD on the main editing window.
 
@@ -60,26 +75,43 @@ Administrative level users of the FICD will be capable of editing faculty inform
 	3.D.2
 An administrative user will have displayed to them in text boxes the contents of the current information fields of the card to be edited. These boxes will be editable. The results of changes in those boxes will be saveable. The changed card can be printed without saving the changes.
 
-     E. 
+     E. Clerk Users Edit Office Hours Only
+	3.E.1
+Clerk level users must be able to edit the office hour sections of faculty information cards
+	3.E.2
+Clerk level users will have text edit boxes for faculty information cards as well as the ability to save changes to that. All other information will be displayed only.
 
 4. Data requirements
-	4.1 Logical data model
-	4.2 Data dictionary
-	4.3 Reports
-	4.4 Data acquisition, integrity, retention, and disposal
+
+4.1 Logical data model
+
+4.2 Data dictionary
+
+4.3 Reports
+
+4.4 Data acquisition, integrity, retention, and disposal
 
 5. External interface requirements
-	5.1 User interfaces
-	5.2 Software interfaces
-	5.3 Hardware interfaces
-	5.4 Communications interfaces
+
+5.1 User interfaces
+
+5.2 Software interfaces
+
+5.3 Hardware interfaces
+
+5.4 Communications interfaces
 	
 6. Quality attributes
-	6.1 Usability
-	6.2 Performance
-	6.3 Security
-	6.4 Safety
-	6.x [others]
+
+6.1 Usability
+
+6.2 Performance
+
+6.3 Security
+
+6.4 Safety
+	
+6.x [others]
 
 7. Internationalization and localization requirements
 
