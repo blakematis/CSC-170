@@ -53,6 +53,11 @@ The primary design and implementation constraint in the FICD is the expected bud
 
 The FICD is not expected to export information except as printing faculty information cards, and will not be capable of exporting data in any other format. It is expected that should there be a need for the FICD’s information that it will be available by other means to authorized personnel, and that the FICD is not required to store its data in a format readable by other programs.
 
+The FICD is dependent on the consistent formatting of the data to be imported. The initial release will be dependent solely on the Computer Science Department’s current spreadsheet based data. For later releases involving the use of other departments, the FICD will be dependent on other departments’ formatting as well for proper use of the import function.
+
+The FICD will be dependent on a Windows based operating system. A change in operating system will require conversion of the program.
+
+
 3. System Features
 
 3.A Printing All Information Cards
