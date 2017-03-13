@@ -109,11 +109,15 @@ Clerk level users will have text edit boxes for faculty information cards as wel
 
 5.1 User interfaces
 
-UI-1: The FICD shall 
+UI-1: The initical release for the FICD does not follow a specific user standard style guide, but is to be interrupted and designed by the developers and modified based on client feedback.
 
 UI-2: The system shall provide help information for each of the user-interactive buttons and components to explain how that particular component functions for the user.
 
-UI-3: The FICD interface will be fully navigatable via the mouse and keyboard input where verification is required to access any data and features besides the printed faculty information card. The administrator and clerk will be able to manually make the changes to the data that is accessible to their particular roles via the FICD interface. 
+UI-3: The FICD shall output within the application when features have been successfully used and executed or an error with a description of the problem at the bottom of the application screen for the user to interpret.
+
+UI-4: The FICD interface will be fully navigatable via the mouse and keyboard inputs. Some of the keyboard inputs are limited to signing in and making modifying existing database information.
+
+
 
 5.2 Software interfaces
 
