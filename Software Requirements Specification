@@ -109,9 +109,33 @@ Clerk level users will have text edit boxes for faculty information cards as wel
 
 5.1 User interfaces
 
+UI-1: The FICD shall 
+
+UI-2: The system shall provide help information for each of the user-interactive buttons and components to explain how that particular component functions for the user.
+
+UI-3: The FICD interface will be fully navigatable via the mouse and keyboard input where verification is required to access any data and features besides the printed faculty information card. The administrator and clerk will be able to manually make the changes to the data that is accessible to their particular roles via the FICD interface. 
+
 5.2 Software interfaces
 
-5.3 Hardware interfaces
+SI-1: CSV file Import to Database System
+
+SI-2: Manual data modification System
+
+SI-3: Generate Card System
+
+SI-4: Export/Print System
+
+
+5.3 Hardware interface
+
+HI-1: Supported Device types and platforms
+	Personal Computer or server running: Windows 7, Windows 8, Windows 8.1, or Windows 10
+	Hardware Specifications inlcude:
+	1 gigahertz (GHz) or faster 64-bit (x64) processor
+	2 GB RAM
+	[?] available hard disk space
+	DirectX 9 graphics device with WDDM 1.0 or higher driver
+	Printing requires: Windows compatible printing device
 
 5.4 Communications interfaces
 	
